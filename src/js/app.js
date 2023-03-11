@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
 
-  let image = document.querySelector("img")
+  let image = document.querySelector(".image")
   image.addEventListener("click", () => {
     console.log(image);
     image.style.zoom= "200%";
