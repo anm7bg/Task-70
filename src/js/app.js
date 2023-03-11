@@ -7,4 +7,10 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+
+  let image = document.querySelector("img")
+  image.addEventListener("click", () => {
+    console.log(image);
+    image.style.zoom= "200%";
+  })
 });
